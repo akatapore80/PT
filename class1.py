@@ -84,8 +84,8 @@ sentence = first + " " + second + " " + third
 print(sentence) 
 
 # Example 4
-word1 = "She"
-word2 = "runs"
+word1 = "She is "
+word2 = "a girl"
 combined = word1 + " " + word2
 print(combined) 
 
