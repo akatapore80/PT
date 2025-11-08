@@ -75,7 +75,6 @@ x = "Birds"
 y = "can fly"
 z = x + " " + y
 print(z) 
-
 # Example 3
 first = "The"
 second = "sun"
@@ -85,7 +84,7 @@ print(sentence)
 
 # Example 4
 word1 = "She is "
-word2 = "a girl"
+word2 = "a girlS"
 combined = word1 + " " + word2
 print(combined) 
 
@@ -95,3 +94,4 @@ part2 = "saw"
 part3 = "a shooting star"
 message = part1 + " " + part2 + " " + part3
 print(message)
+print("I am learning to code with Coddy!")
