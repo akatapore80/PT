@@ -95,3 +95,6 @@ part3 = "a shooting star"
 message = part1 + " " + part2 + " " + part3
 print(message)
 print("I am learning to code with Coddy!")
+text = "lawful"
+x = text 
+print(x.upper())
