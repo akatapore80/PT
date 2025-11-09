@@ -98,3 +98,8 @@ print("I am learning to code with Coddy!")
 text = "lawful"
 x = text 
 print(x.upper())
+text = "Lovely game"
+x = text
+print(x.casefold())
+
+
