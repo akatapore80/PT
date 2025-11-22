@@ -110,3 +110,20 @@ print(x is y)
 b = 9
 b += 9
 print(b)
+
+
+year = 2025
+
+def leapYear (year):
+  if (year % 400 == 0 ):
+    prnit("Leap year")
+  elif (year % 4 ==0 and year % 100 != 0):
+    print("Leap year")
+  else :
+    print("not leap year")
+
+
+
+
+
+
