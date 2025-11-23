@@ -1,5 +1,4 @@
-
-#  Nested condition example: Input a number and check if it is positive; if positive, further check if it is greater than 100.
+# Nested condition example: Input a number and check if it is positive; if positive, further check if it is greater than 100.
 
 def greaterThan(m):
   if m > 0:
@@ -10,7 +9,5 @@ def greaterThan(m):
     print("Posive but not greater than 100")
   else:
    print("Not positive number")
-greaterThan(-12)
-greaterThan(100)
+
 greaterThan(120)
-        
