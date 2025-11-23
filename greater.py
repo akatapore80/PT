@@ -11,3 +11,6 @@ def greaterThan(m):
    print("Not positive number")
 
 greaterThan(120)
+greaterThan(12)
+greaterThan(-34)
+
