@@ -1,7 +1,6 @@
 
 
 # Positive, negative, or zero: Accept a number and classify it as positive, negative, or zero.
-
 def myNumber(number):
   if number > 0:
     print("positive")
@@ -10,3 +9,5 @@ def myNumber(number):
   else:
     print("zero")
 myNumber(25)
+myNumber(-252522662)
+myNumber(0)

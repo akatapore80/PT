@@ -13,5 +13,5 @@ def checkEven(number):
         print("Even number")
     else:
         print("Odd number")
-checkEven(score)
+checkEven(number)
 

@@ -8,3 +8,5 @@ def myAge(age):
    print("ineligible to vote")
 myAge(36)
 myAge(11)
+myAge(17.5)
+myAge(18)

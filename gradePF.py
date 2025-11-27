@@ -4,9 +4,9 @@
 
 # Ask the user to input their exam score.
 
-# If the score is greater than or equal to 50, print "Pass". Otherwise, print "Fail"
+# If the sco is greater threan or equal to 50, print "Pass". Otherwise, print "Fail"
 score = input("Enter score")
-score = int(input("Enter score"))
+score = int(score)
 def grade(score):
     if score >= 50:
         print("Pass")
