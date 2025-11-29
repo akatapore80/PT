@@ -1,6 +1,3 @@
-
-
-
 # 3. Start with numbers = [1, 2, 3]. Use .insert() to add 10 at index 1.
 
 numbers = [1,2,3]
@@ -26,17 +23,17 @@ print(animals)
 
 # 7. Print the first element of numbers = [5, 10, 15, 20] using indexing.
 numbers = [5, 10, 15, 20]
-numbers[0]
 print(numbers[0])
 
 # 8. Print the last element of letters = ["a", "b", "c", "d"] using negative indexing.
 letters = ["a", "b", "c", "d"]
-letters[-1]
 print(letters[-1])
 
 
 # 9. Add multiple items at once: extend list1 = [1, 2] with [3, 4, 5].
-
+list1 = [1, 2]
+list1[0] = [3, 4, 5]
+print("question 9",  list1)
 
 # 10. Delete the element at index 2 from cars = ["BMW", "Toyota", "Tesla"] using del.
 cars = ["BMW", "Toyota", "Tesla"]
@@ -45,10 +42,13 @@ print(cars)
 
 
 # 11. Show that lists are mutable by changing nums = [1, 2, 3] into [1, 99, 3].
+nums = [1, 2, 3]
+nums[1] = 99
+print("question 11" , nums)
+
 
 # 12. Print the length of items = ["pen", "book", "eraser"] using len().
 items = ["pen", "book", "eraser"]
-
 print(len(items))
 
 # 13. Add "grape" to fruits = ["apple", "banana"] using concatenation (+).
@@ -66,5 +66,4 @@ print(data)
 
 # 15. Print the entire list names = ["Ali", "Bola", "Chika"] in one statement.
 names = ["Ali", "Bola", "Chika"]
-
 print(names)
