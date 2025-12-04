@@ -6,10 +6,16 @@
 
 # Print the reversed list.
 
-listNumber = [1, 2, 3, 4, 5]
+
+userData = input("Enter List Of Number")
+
+listNumber = []
+
+for num in userData : 
+   castNum = int(num)
+   listNumber.append(castNum)
 
 reverseList = []
-
 
 for num in listNumber :
 
