@@ -16,6 +16,21 @@ for num in listNumber :
 
 print(max)
 
+# Find the Smallest Number in a List
+
+#  Create a list of numbers.
+
+# Use a for loop to find the smallest number without using min().
+
+#  Print the largest number.
+
+
+listNumber = [2, 3, 1, 5, 6, 10, 4, 1]
+min = listNumber[0]
+for num in listNumber:
+    if num < min :
+        min = num
+print(min)
 
 
 
