@@ -1,7 +1,6 @@
 # 2. Access the third element of a tuple (10, 20, 30, 40, 50).
 toplist = (10,20,30,40,50)
-toplist[2]
-print(toplist[0])
+print(toplist[2])
 # 3. Check if an element exists in a tuple (1, 2, 3, 4, 5). For example, check if 3 is present.
 toplist = (1,2,3,4,5)
 if 3 in toplist:
