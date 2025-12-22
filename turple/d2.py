@@ -6,8 +6,8 @@ print(t[2][1])
 # 2. Concatenate two tuples and sort the resulting tuple.
 tuple1 = (3, 1, 4)
 tuple2 = (2, 5, 6)
-tuple = tuple1 + tuple2 
-print(tuple)
+tupl = tuple1 + tuple2 
+print(tupl)
 
 # 3. Pack multiple values into a tuple, then unpack them into variables.
 packed = (10, 20, 30)
@@ -21,7 +21,6 @@ temp_list = list(t)
 temp_list[1] = 13
 print(temp_list)
 modified = tuple(temp_list)
-
 print(modified)  
 
 
