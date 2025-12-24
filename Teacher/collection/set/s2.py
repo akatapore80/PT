@@ -1,4 +1,11 @@
 # Find pairs with sum k
+# Problem: Find Pairs With Sum K
+# Description
+
+# You are given an array (or list) of integers and an integer K.
+# Your task is to find all unique pairs of numbers in the array whose sum is equal to K.
+
+# A pair consists of two different elements, and each pair should be counted only once, even if the same numbers appear multiple times in the array.
 
 
 def findPair(k) : 
@@ -11,9 +18,13 @@ def findPair(k) :
             else : 
                 sumItem = listNumber[i] + listNumber[x]
                 if sumItem == k :
+
                     newList = (listNumber[i], listNumber[x])
-                    savePair.add(tuple(sorted(newList)))
+                    tuppleValue = tuple(sorted(newList))
+                    savePair.add(tuppleValue)
     return savePair
+
+
 
 
 print(findPair(50))
