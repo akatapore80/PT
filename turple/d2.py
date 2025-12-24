@@ -16,6 +16,10 @@ print(t[2][1])
 
 tuple1 = (3, 1, 4)
 tuple2 = (2, 5, 6)
+<<<<<<< HEAD
+tupl = tuple1 + tuple2 
+print(tupl)
+=======
 joinTuple = tuple1 + tuple2 
 convertToList = sorted(joinTuple)
 backToTuple = tuple(convertToList)
@@ -28,6 +32,7 @@ convertAToList.sort()
 convertBackToTuple = tuple(convertAToList)
 print(convertBackToTuple)
 
+>>>>>>> 98dd95d4061eab88f48861479475fc28ad88b888
 
 # 3. Pack multiple values into a tuple, then unpack them into variables.
 packed = (10, 20, 30)
